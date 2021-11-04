@@ -16,6 +16,7 @@
             "hash": "ad44025c30f556b96591d755a0fc22533cb0544056ce23b1de744ab09df7162b"
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\User Data\\Chrome SxS\")) {  New-Item \"$persist_dir\\User Data\\Chrome SxS\" -ItemType Directory | Out-Null }",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
@@ -25,11 +26,14 @@
             "chrome-canary"
         ]
     ],
+    "persist": [
+        "User Data"
+    ],
     "shortcuts": [
         [
             "chrome.exe",
             "Google Chrome Canary",
-            "--user-data-dir=%LOCALAPPDATA%/Google/Chrome SxS"
+            "--user-data-dir=\"$persist_dir\\User Data\\Chrome SxS\""
         ]
     ],
     "checkver": {
