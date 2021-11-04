@@ -1,9 +1,9 @@
-<Application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Application xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
   <VisualElements
-    BackgroundColor="#212121"
-    ShowNameOnSquare150x150Logo="on"
-    ForegroundText="light"
-    Square150x150Logo="Logo.png"
-    Square70x70Logo="SmallLogo.png"
-    Square44x44Logo="SmallLogo.png"/>
+      ShowNameOnSquare150x150Logo='on'
+      Square150x150Logo='97.0.4690.4\VisualElements\LogoCanary.png'
+      Square70x70Logo='97.0.4690.4\VisualElements\SmallLogoCanary.png'
+      Square44x44Logo='97.0.4690.4\VisualElements\SmallLogoCanary.png'
+      ForegroundText='light'
+      BackgroundColor='#5F6368'/>
 </Application>
