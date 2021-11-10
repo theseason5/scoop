@@ -16,14 +16,15 @@
             "hash": "3044d9de14671d1a13f0dce9de6969f6c06c1fc30a9aa4212324c7ac3e169c15"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\User Data\\Chrome SxS\")) {  New-Item \"$persist_dir\\User Data\\Chrome SxS\" -ItemType Directory | Out-Null }",
+    "pre_install": "if (!(Test-Path \"$dir\\User Data\\Chrome SxS\")) {  New-Item \"$dir\\User Data\\Chrome SxS\" -ItemType Directory | Out-Null }",
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
     },
     "bin": [
         [
             "chrome.exe",
-            "chrome-canary"
+            "chrome-canary",
+            "--user-data-dir=\"$dir\\User Data\\User Data\\Chrome SxS\""
         ]
     ],
     "persist": "User Data",
@@ -31,7 +32,7 @@
         [
             "chrome.exe",
             "Google Chrome Canary",
-            "--user-data-dir=\"$persist_dir\\User Data\\Chrome SxS\""
+            "--user-data-dir=\"$dir\\User Data\\User Data\\Chrome SxS\""
         ]
     ],
     "checkver": {
