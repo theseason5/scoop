@@ -29,10 +29,8 @@
         }
     },
     "pre_install":[
-        "'install', 'install-tools' | ForEach-Object {",
         "    (Get-Content \"$dir\\chrome.VisualElementsManifest.xml.templ\") -replace '%CANARYVERSION%', \"$version\" | Set-Content -LiteralPath \"$dir\\chrome.VisualElementsManifest.xml\" -Encoding Ascii",
-        "    Remove-Item \"$dir\\chrome.VisualElementsManifest.xml.templ\"",
-        "}"
+        "    Remove-Item \"$dir\\chrome.VisualElementsManifest.xml.templ\""
     ],
     "installer": {
         "script": "Expand-7zipArchive \"$dir\\chrome.7z\" -ExtractDir 'Chrome-bin' -Removal"
