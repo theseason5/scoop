@@ -39,7 +39,7 @@
         [
             "chrome.exe",
             "chrome-canary",
-            "--user-data-dir=\"$dir\\User Data\\User Data\\Chrome SxS\""
+            "--user-data-dir=\"$dir\\User Data\\Chrome SxS\""
         ]
     ],
     "persist": "User Data",
@@ -47,7 +47,7 @@
         [
             "chrome.exe",
             "Google Chrome Canary",
-            "--user-data-dir=\"$dir\\User Data\\User Data\\Chrome SxS\""
+            "--user-data-dir=\"$dir\\User Data\\Chrome SxS\""
         ]
     ],
     "checkver": {
