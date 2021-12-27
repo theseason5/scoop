@@ -1,5 +1,5 @@
 {
-    "version": "98.0.4758.2",
+    "version": "99.0.4789.0",
     "description": "Fast, secure, and free web browser, built for the modern web.",
     "homepage": "https://www.google.com/chrome/canary",
     "license": {
@@ -9,21 +9,21 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://dl.google.com/release2/chrome/nrloquy3zrs46qkmf7gh26cj2m_98.0.4758.2/98.0.4758.2_chrome_installer.exe#/dl.7z",
+                "https://dl.google.com/release2/chrome/bdu2ylhnq53ijylmjmr3phzss4_99.0.4789.0/99.0.4789.0_chrome_installer.exe#/dl.7z",
                 "https://raw.githubusercontent.com/theseason5/scoop-bucket/master/scripts/googlechrome-canary/chrome.VisualElementsManifest.xml.templ"
             ],
             "hash": [
-                "912f5e6ce6af9c7461f3918be1eadea40fd62c532561caaec8f034d37a3729af",
+                "3a51859fad77724b789721a01ae58780fc179dfdc49c12b0ac0ad7997674ecd3",
                 "6b192e816704d5fd841586f98b055624d50917eeba0be1735ae4e626ec6d4419"
             ]
         },
         "32bit": {
             "url": [
-                "https://dl.google.com/release2/chrome/fq2g5awhzejurtkvtqgjpyyb7a_98.0.4758.2/98.0.4758.2_chrome_installer.exe#/dl.7z",
+                "https://dl.google.com/release2/chrome/jyikvnjcdradff7h5yayxzgcd4_99.0.4789.0/99.0.4789.0_chrome_installer.exe#/dl.7z",
                 "https://raw.githubusercontent.com/theseason5/scoop-bucket/master/scripts/googlechrome-canary/chrome.VisualElementsManifest.xml.templ"
             ],
             "hash": [
-                "5b25a03dc56bdae44c6c4936e7d560f396c816424cc1bac290a481966376d0d7",
+                "c2f75909f5246d8ca82233cb93248c76f563b4352df9c26dac57e5cb311d5489",
                 "6b192e816704d5fd841586f98b055624d50917eeba0be1735ae4e626ec6d4419"
             ]
         }
