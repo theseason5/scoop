@@ -36,14 +36,14 @@
             "64bit": {
                 "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://theseason5.github.io/chromeupdates/chrome.min.xml",
+                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
                     "xpath": "/chromechecker/dev64[version='$version']/sha256"
                 }
             },
             "32bit": {
                 "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer.exe#/dl.7z",
                 "hash": {
-                    "url": "https://theseason5.github.io/chromeupdates/chrome.min.xml",
+                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
                     "xpath": "/chromechecker/dev32[version='$version']/sha256"
                 }
             }
